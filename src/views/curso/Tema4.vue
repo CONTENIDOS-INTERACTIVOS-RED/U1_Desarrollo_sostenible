@@ -9,7 +9,7 @@
       .col-5.d-none.d-lg-block(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
 
-    .row.bg-amarillo.bg-full-width.py-4
+    .row.bg-amarillo.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
@@ -20,7 +20,18 @@
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Desarrollo económico - Equidad social - Protección ambiental
              
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/41035") González Parodi, G. A. (2012). Reflexiones del desarrollo local sostenible: ( ed.). Ediciones y Gráficos Eón. 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/68547") Vásquez, Y. & Petersen, J. (2017). Ensayos para un modelo de desarrollo sostenible: un cambio estructural: ( ed.). CLACSO.
 </template>
 
 <script>
