@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Fundamentos del desarrollo sostenible',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +31,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Conceptos fundamentales del desarrollo sostenible',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo:
+              'Definición y principios fundamentales de desarrollo sostenible',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Diferencias entre sostenibilidad y sustentabilidad     ',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,38 +53,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Historia y evolución del desarrollo sostenible     ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Orígenes del concepto',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo:
+              'Evolución de la conciencia ambiental y el desarrollo sostenible en el ámbito global',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,22 +75,17 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Objetivos de Desarrollo Sostenible (ODS)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Relación entre desarrollo económico, equidad social y protección ambiental',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
@@ -170,109 +125,129 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Brundtland, G. H. (1987). Our common future. Oxford University Press.',
+      link: '',
+    },
+    {
+      referencia: 'Carson, R. (1962). Silent spring. Houghton Mifflin.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'CEPAL, NU. (2019). La Agenda 2030 y los Objetivos de Desarrollo Sostenible: una oportunidad para América Latina y el Caribe. Objetivos, metas e indicadores mundiales.',
+      link: '',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Club de Roma. (1972). Los límites del crecimiento: Informe al Club de Roma sobre el predicamento de la humanidad. Editorial Fundamentos.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Naciones Unidas. (1992). Agenda 21: Programa de acción para el desarrollo sostenible. Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Naciones Unidas. (2015). Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible. Naciones Unidas.',
+      link: 'https://sustainabledevelopment.un.org',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Organización Internacional del Trabajo. (2018). Informe global sobre trabajo decente.',
+      link: 'https://www.ilo.org',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Parra-Lancourt, M. (2020). Economía circular: Una oportunidad para el desarrollo sostenible en América Latina y el Caribe. CEPAL.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'United Nations. (2020). The sustainable development goals report 2020. United Nations Department of Economic and Social Affairs.',
+      link: 'https://unstats.un.org',
+    },
+    {
+      referencia:
+        'World Bank. (2021). Inclusive growth and sustainable development: A cross-country analysis. The World Bank.',
+      link: 'https://www.worldbank.org',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Biodiversidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Variedad de vida en la Tierra, incluyendo ecosistemas, especies y genes, que es crucial para mantener el equilibrio ecológico y la sostenibilidad de los recursos naturales.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Cambio Climático',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Alteración significativa y duradera del clima de la Tierra, en gran parte causada por la actividad humana, como la quema de combustibles fósiles y la deforestación.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Consumo Responsable',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Práctica de elegir productos y servicios que tengan el menor impacto ambiental posible, considerando aspectos como la reducción de residuos, el uso de recursos sostenibles y el respeto a los derechos laborales.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Desarrollo Económico',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Proceso de mejora en la economía de un país o región que aumenta el nivel de vida de sus habitantes, generando empleo y riqueza de manera inclusiva y sostenible.',
     },
     {
-      termino: 'Moda',
+      termino: 'Desigualdad',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Diferencias significativas en el acceso a recursos, oportunidades y servicios entre diferentes grupos sociales, regiones o países, que afectan el desarrollo equitativo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Economía Circular',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Sistema económico que busca reducir, reutilizar y reciclar materiales y productos, minimizando los desechos y la explotación de recursos naturales.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Economía Verde',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Modelo económico que promueve la reducción de riesgos ambientales y escasez ecológica, mejorando el bienestar humano y la equidad social.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Eficiencia Energética',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Uso racional y óptimo de la energía para minimizar el consumo sin sacrificar los resultados, reduciendo así el impacto ambiental y los costos.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Energías Renovables',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Fuentes de energía que se obtienen de recursos naturales que no se agotan, como el sol, el viento y el agua, y que son menos contaminantes.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Equidad Social',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Principio que garantiza igualdad de oportunidades y acceso justo a recursos y servicios para todos los miembros de la sociedad, sin discriminación.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Protección Ambiental',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de acciones y políticas que buscan conservar los recursos naturales y minimizar el impacto negativo de las actividades humanas en el medio ambiente.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Recursos Renovables',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Recursos naturales que se regeneran de manera natural a un ritmo que permite su uso continuado, como la energía solar, eólica y el agua.',
+    },
+    {
+      termino: 'Responsabilidad Social Empresarial (RSE)',
+      significado:
+        'Estrategia de gestión por la cual las empresas integran voluntariamente prácticas sostenibles y éticas en sus operaciones, considerando el impacto social y ambiental.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'Capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades, equilibrando lo económico, social y ambiental.',
+    },
+    {
+      termino: 'Sustentabilidad',
+      significado:
+        'Uso eficiente y responsable de los recursos naturales, asegurando que estos puedan regenerarse y mantenerse a lo largo del tiempo sin agotarse.',
     },
   ],
   complementario: [

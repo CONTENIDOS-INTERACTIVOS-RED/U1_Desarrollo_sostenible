@@ -2,9 +2,10 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La Unidad I: Fundamentos del desarrollo sostenible, establece los conceptos esenciales para comprender la sostenibilidad y su aplicación en los contextos actuales. A través de esta unidad, se exploran los pilares del desarrollo sostenible —ambiental, social y económico—, así como la relación entre estos para promover un equilibrio que permita satisfacer las necesidades presentes sin comprometer los recursos del futuro. Además, se revisan los Objetivos de Desarrollo Sostenible (ODS) como una hoja de ruta global para abordar desafíos como la desigualdad, el cambio climático y la degradación ambiental. Este enfoque integral garantiza que los estudiantes adquieran una base sólida sobre los principios del desarrollo sostenible, permitiéndoles aplicarlos de manera efectiva en sus contextos profesionales y en futuros aprendizajes.
+
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

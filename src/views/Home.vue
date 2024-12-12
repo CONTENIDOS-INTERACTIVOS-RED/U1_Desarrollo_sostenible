@@ -22,9 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 El desarrollo sostenible ha emergido como un concepto esencial para afrontar los retos globales contemporáneos, como el cambio climático, la desigualdad social y la degradación ambiental. Este curso, "Fundamentos del Desarrollo Sostenible y Sustentable", busca proporcionar a los estudiantes una base sólida sobre estos conceptos, explorando su evolución y relevancia en el contexto actual.
+              p.descripcion.mb-4 A lo largo de la primera unidad, se abordará la definición de desarrollo sostenible y sustentable, su historia y los Objetivos de Desarrollo Sostenible (ODS). Además, se analizará la interrelación entre el crecimiento económico, la equidad social y la protección ambiental. <br> Prepárate para adquirir las herramientas necesarias para integrar prácticas sostenibles en cualquier ámbito profesional y contribuir activamente a un futuro más equitativo y resiliente.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Inicia tu camino hacia la sostenibilidad ahora!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +147,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: #A8DAEE !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #145A74 !important
   &:hover
     .icon
       transform: scale(1.06)
