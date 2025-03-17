@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Historia y evolución del desarrollo sostenible'")
+  BannerInterno(:subTitulo="'2. Historia y evolución del desarrollo sostenible'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5.mx-0
